@@ -18,12 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: lacan's blog
+site.title: 关于
+
+title: lancn's blog
 email: guanghui.six@qq.com
-description: >-
-  记录分享个人思考过程.
-baseurl: ""
-url: ""
+description: >- # this means to ignore newlines until "baseurl:"
+  记录日常工作.
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
 github_username:  erickson00
 
 # Build settings
